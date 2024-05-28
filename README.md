@@ -10,7 +10,7 @@ Automated Email Testing with Playwright and Mailosaur
 * Import the mailosaur library using the API key at the top of your tests
 * e.g.`import MailosaurClient from 'mailosaur';
 const mailosaur = new MailosaurClient('<api key>');`
-* See the sample code in example.spec.ts 
+* See the sample code in password.spec.ts 
 
 Avoid a hard-coded API Key inside the code
 * Save the API key as an environment variable on the system
