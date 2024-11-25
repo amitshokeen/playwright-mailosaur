@@ -1,5 +1,5 @@
 # playwright-mailosaur
-Automated Email Testing with Playwright and Mailosaur
+## Automated Email Testing with Playwright and Mailosaur
 * Use this VSCode Extension: "Playwright Test for VSCode"
 * Command panel: "Test: Install Playwright"
 * Select the browsers and "GitHub Actions workflow" as well
@@ -12,12 +12,12 @@ Automated Email Testing with Playwright and Mailosaur
 const mailosaur = new MailosaurClient('<api key>');`
 * See the sample code in password.spec.ts 
 
-Avoid a hard-coded API Key inside the code
+### Avoid a hard-coded API Key inside the code
 * Save the API key as an environment variable on the system
 * Make use of `process.env.mailosaur` as in sample code
 * Anyone else who clones this code will need to generate their own API key and save it in their system's environment variable file.
   
-How to permanently save API Key in environment variables on Mac?
+### How to permanently save API Key in environment variables on Mac?
 * Terminal: `vi ~/.zshrc`  
 * Add this line: `export mailosaur="<the mailosaur API key goes here>"`
 * Save and exit the VI editor
